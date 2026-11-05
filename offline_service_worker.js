@@ -1,4 +1,4 @@
-const CACHE_NAME = 'ppdac-offline-3bc5b8b1177c';
+const CACHE_NAME = 'ppdac-offline-__BUILD_ID__';
 const APP_SHELL = new URL('index.html', self.registration.scope).href;
 const MANIFEST = new URL('manifest.json', self.registration.scope).href;
 const OFFLINE_ASSETS = new URL('offline-assets.json', self.registration.scope).href;
